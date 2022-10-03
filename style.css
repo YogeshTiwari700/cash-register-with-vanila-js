@@ -1,9 +1,63 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    text-align: center;
 }
 #error-message {
-    color: aqua;
+    color: orange;
     
+}
+
+.bill-Amount {
+    width: 20vw;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.cash-given {
+    width: 20vw;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.check-button {
+    margin: auto;
+    width: 20vw;
+    font-weight: bolder;
+    font-size: x-large;
+    color: orange;
+}
+.label {
+    font-weight: bolder;
+    font-size: x-large;
+    color: orange;
+}
+
+.heading2 {
+    font-weight: bolder;
+    color: orange;
+}
+.change-table {
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+}
+#background-image {
+    background-image: url(/images/image.jpg);
+    /* background-size: cover; */
+    height: 100vh;
+}
+td {
+    border: 1px solid orange;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th {
+    border: 1px solid orange;
+    padding: 0.5rem;
+    text-align: center;
 }
