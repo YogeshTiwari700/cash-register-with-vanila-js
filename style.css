@@ -3,3 +3,7 @@
     flex-direction: column;
     width: 50vw;
 }
+#error-message {
+    color: aqua;
+    
+}
