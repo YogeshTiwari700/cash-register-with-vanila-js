@@ -6,6 +6,10 @@ var noOfNotes = document.querySelectorAll(".no-of-notes");
 var availableNotes = [2000,500,100,20,10,5,1];
 CheckButton.addEventListener("click", function validateBillAndCashAmount() {
     hideMessage ();
+    if(Number(billAmount.value) === Number(cashGiven.value)){
+        showMessage('No cash required to be given') 
+
+        }
 if (billAmount.value > 0) {
     if (Number(cashGiven.value) >= Number (billAmount.value)){
         var amountToBEReturned = cashGiven.value - billAmount.value;
@@ -27,3 +31,5 @@ function hideMessage () {
 function showMessage (msg) {
     message.style.display ="block";
     message.innerText = msg;}
+
+    
